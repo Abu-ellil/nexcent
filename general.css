@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #4caf4f;
+  --secondary-color: #263238;
+  --info-color: #2194f3;
+  --silver-color: #f5f7fa;
+  --text-color: #4d4d4d;
+  --neutral-d-grey: #4d4d4d;
+  --shade-s-5: #103e13;
+  --tint-t-5: #e8f5e9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+ p {
+  color: var(--neutral-d-grey);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+}
+ span,a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--text-color);
+}
+.fa-solid{
+  color: var(--primary-color);
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: transparent;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+}
+.btn.active {
+  background: var(--primary-color);
+  color: #fff;
+}
+.btn:hover {
+  background-color:#80da86;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color:#82db88;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+/* @media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+  
+} */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+  .hero-text h1 {
+    font-size: 55px;
+  }
+}
+@media (max-width: 800px) {
+
+  .hero-text h1 {
+    font-size: 55px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .features-cards {
+    width: 100%;
+  }
+  .features-card {
+    width: 400px;
+  }
+  footer {
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 780px) {
+  section{
+    width: 100%;
+  }
+  .features-cards {
+    width: 100%;
+  }
+  .features-card {
+    width: 400px;
+  }
+  footer {
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+  }
+  .how-to{
+    width: 100%;
+  }
+  .how-to-text{
+    width: 100%;
+  }
+  .testemonials-card {
+  width: 100%;
+  }
+  .hero-text h1 {
+    font-size: 39px;
+}
+  h1{
+    font-size: larger;
+  }
+  h2{
+    font-size: large;
+  }
+  .features-header h1 {
+    font-size: 2rem;
+    width: 100%;
+}
+.learn-more {
+    width: 100%;
+    padding: 0rem;
+    padding-bottom: 1rem;
+}
+.testemonials-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testemonials-card-img,
+.testemonials-card-img img{
+  width: 100%;
+}
+footer,.testemonials-card-text,
+  .about-section,.about-section-header {
+    padding: 0rem;
+    width: 100%;
+  }
+}
+
+
+
