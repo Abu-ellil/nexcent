@@ -15,8 +15,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,19 +70,29 @@ button:hover {
 
 
 
-
-
-/* @media (min-width: 768px) {
-
+.link-list{
+  display: none;
 }
-
-@media (min-width: 992px) {
-
+.show{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  background-color: #343535ec;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
 }
-
-@media (min-width: 1200px) {
-  
-} */
+.link-list:hover{
+  color: #fff;
+}
+.fa-x{
+  color: red;
+}
 @media (max-width: 1200px) {
 
 }
@@ -91,7 +103,13 @@ button:hover {
   }
 }
 @media (max-width: 800px) {
-
+.mobile-links{
+  display: block;
+  font-size: 32px;
+}
+.nav-links{
+  display: none;
+}
   .hero-text h1 {
     font-size: 55px;
   }
@@ -119,9 +137,7 @@ button:hover {
   .features-card {
     width: 400px;
   }
-  footer {
-    grid-template-columns:  1fr 1fr 1fr 1fr;
-  }
+
   .how-to{
     width: 100%;
   }
@@ -163,7 +179,18 @@ footer,.testemonials-card-text,
     padding: 0rem;
     width: 100%;
   }
+  .learn-more-text {
+    width: 91%;
+  }
+  .how-to-text {
+    padding: 0rem;
 }
-
-
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+}
 
