@@ -3,13 +3,11 @@ const fa = document.querySelector(".fa-bars");
 const navToggle = document.querySelector(".mobile-links");
 const toTopButton = document.getElementById("toTopButton");
 
-
 console.log(navToggle);
 navToggle.addEventListener("click", () => {
   navbar.classList.toggle("show");
   fa.classList.toggle("fa-x");
 });
-
 
 // to top button
 window.addEventListener("scroll", function () {
@@ -22,5 +20,5 @@ window.addEventListener("scroll", function () {
 });
 
 toTopButton.addEventListener("click", function () {
-  window.scrollTo({ top: 0, behavior: "smooth" }); 
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });

@@ -18,27 +18,32 @@
   scroll-behavior: smooth;
 }
 body {
-  
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
 }
- p {
+p {
   color: var(--neutral-d-grey);
   font-family: Inter;
   font-size: 12px;
   font-style: normal;
 }
- span,a {
+span,
+a {
   text-decoration: none;
   color: var(--primary-color);
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--text-color);
 }
-.fa-solid{
+.fa-solid {
   color: var(--primary-color);
 }
 
@@ -58,22 +63,20 @@ h1,h2,h3,h4,h5,h6{
   color: #fff;
 }
 .btn:hover {
-  background-color:#80da86;
+  background-color: #80da86;
   color: #fff;
   cursor: pointer;
 }
 button:hover {
-  background-color:#82db88;
+  background-color: #82db88;
   color: #fff;
   cursor: pointer;
 }
 
-
-
-.link-list{
+.link-list {
   display: none;
 }
-.show{
+.show {
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -87,14 +90,13 @@ button:hover {
   height: 100vh;
   color: #fff;
 }
-.link-list:hover{
+.link-list:hover {
   color: #fff;
 }
-.fa-x{
+.fa-x {
   color: red;
 }
 @media (max-width: 1200px) {
-
 }
 
 @media (max-width: 992px) {
@@ -103,18 +105,17 @@ button:hover {
   }
 }
 @media (max-width: 800px) {
-.mobile-links{
-  display: block;
-  font-size: 32px;
-}
-.nav-links{
-  display: none;
-}
+  .mobile-links {
+    display: block;
+    font-size: 32px;
+  }
+  .nav-links {
+    display: none;
+  }
   .hero-text h1 {
     font-size: 55px;
   }
 }
-
 
 @media (max-width: 768px) {
   .features-cards {
@@ -124,11 +125,11 @@ button:hover {
     width: 400px;
   }
   footer {
-    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 @media (max-width: 780px) {
-  section{
+  section {
     width: 100%;
   }
   .features-cards {
@@ -138,44 +139,46 @@ button:hover {
     width: 400px;
   }
 
-  .how-to{
+  .how-to {
     width: 100%;
   }
-  .how-to-text{
+  .how-to-text {
     width: 100%;
   }
   .testemonials-card {
-  width: 100%;
+    width: 100%;
   }
   .hero-text h1 {
     font-size: 39px;
-}
-  h1{
+  }
+  h1 {
     font-size: larger;
   }
-  h2{
+  h2 {
     font-size: large;
   }
   .features-header h1 {
     font-size: 2rem;
     width: 100%;
-}
-.learn-more {
+  }
+  .learn-more {
     width: 100%;
     padding: 0rem;
     padding-bottom: 1rem;
-}
-.testemonials-card {
+  }
+  .testemonials-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.testemonials-card-img,
-.testemonials-card-img img{
-  width: 100%;
-}
-footer,.testemonials-card-text,
-  .about-section,.about-section-header {
+  }
+  .testemonials-card-img,
+  .testemonials-card-img img {
+    width: 100%;
+  }
+  footer,
+  .testemonials-card-text,
+  .about-section,
+  .about-section-header {
     padding: 0rem;
     width: 100%;
   }
@@ -184,7 +187,7 @@ footer,.testemonials-card-text,
   }
   .how-to-text {
     padding: 0rem;
-}
+  }
   footer {
     display: flex;
     flex-direction: column;
@@ -193,4 +196,3 @@ footer,.testemonials-card-text,
     padding: 1rem;
   }
 }
-
